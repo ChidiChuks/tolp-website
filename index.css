@@ -128,7 +128,7 @@
   transition: 0.5s;
   flex-direction: column;
   justify-content: space-between;
-  background-color: var(--dl-color-gray-black);
+  background-color: var(--dl-color-gray-blue);
 }
 .home-nav {
   display: flex;
@@ -237,7 +237,7 @@
 
 .menu li:hover > .submenu {
   position: static;
-  background-color: #0d1034;
+  background-color: #c6882b;
 }
 
 .submenu li {
@@ -260,7 +260,7 @@
   .menu li > a:focus + .submenu {
     display: block;
     position: static;
-    background-color: #0d1034;
+    background-color: #c6882b;
   }
 
   .menu li:not(:active) .submenu {
