@@ -106,7 +106,7 @@
   opacity: 0.5;
 }
 .slide-title-active {
-  border-color: #0000F5;
+  border-color: #c6882b;
 }
 .banner {
   cursor: pointer;
@@ -115,7 +115,7 @@
   align-items: flex-start;
   border-width: 0px;
   flex-direction: row;
-  background-color: #0000F5;
+  background-color: #c6882b;
 }
 .banner-smaller {
   width: 620px;
@@ -134,7 +134,7 @@
   display: inline-block;
   transition: width .25s ease;
   border-radius: 12px;
-  background-color: ef9911;
+  background-color: #ef9911;
 }
 .swiper-pagination-bullet-active {
   width: 45px;
