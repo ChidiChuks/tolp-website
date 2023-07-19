@@ -884,7 +884,7 @@
   font-weight: 400;
 }
 .home-caption14 {
-  color: rgb(124, 124, 128);
+  color: rgb(246, 246, 249);
   font-size: 24px;
   max-width: 600px;
   line-height: 36px;
@@ -3350,6 +3350,7 @@
   .home-caption14 {
     font-size: 16px;
     line-height: 24px;
+    text-align: justify;
   }
   .home-image05 {
     width: 300px;
