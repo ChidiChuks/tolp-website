@@ -1,5 +1,5 @@
 defaults:
-  - scope:
-      path: ''
-    values:
-      content_type: 'video/mp4'
+  scope:
+    path: ''
+  values:
+    content_type: 'video/mp4'
