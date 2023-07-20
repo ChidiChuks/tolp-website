@@ -561,6 +561,7 @@
   font-size: 24px;
   max-width: 600px;
   line-height: 36px;
+  text-align: justify;
 }
 .home-slide-titles {
   gap: var(--dl-space-space-threeunits);
@@ -632,7 +633,7 @@
   max-width: 600px;
   line-height: 18px;
   font-size: 13px;
-  text-align: justify;
+  /* text-align: justify; */
 }
 .home-more {
   gap: 4px;
@@ -688,7 +689,7 @@
   max-width: 600px;
   line-height: 18px;
   font-size: 13px;
-  text-align: justify;
+  /* text-align: justify; */
 }
 .home-more1 {
   gap: 4px;
@@ -745,7 +746,7 @@
   max-width: 600px;
   line-height: 18px;
   font-size: 13px;
-  text-align: justify;
+  /* text-align: justify; */
 }
 .home-more2 {
   gap: 4px;
@@ -802,7 +803,7 @@
   max-width: 600px;
   line-height: 18px;
   font-size: 13px;
-  text-align: justify;
+  /* text-align: justify; */
 }
 .home-more3 {
   gap: 4px;
