@@ -623,7 +623,7 @@
 }
 .home-heading02 {
   color: rgb(255, 255, 255);
-  font-size: 40px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 500;
 }
@@ -677,7 +677,7 @@
 }
 .home-heading03 {
   color: rgb(255, 255, 255);
-  font-size: 40px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 500;
 }
@@ -732,7 +732,7 @@
 }
 .home-heading04 {
   color: rgb(255, 255, 255);
-  font-size: 40px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 500;
 }
@@ -787,7 +787,7 @@
 }
 .home-heading05 {
   color: rgb(255, 255, 255);
-  font-size: 40px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 500;
 }
@@ -885,9 +885,10 @@
 }
 .home-caption14 {
   color: rgb(246, 246, 249);
-  font-size: 24px;
-  max-width: 600px;
-  line-height: 36px;
+  font-size: 15px;
+  max-width: 550px;
+  line-height: 20px;
+  text-align: justify;
 }
 .home-button1 {
   display: flex;
