@@ -206,12 +206,12 @@
                 “The team at <b>Tayo Oyetibo LP</b> are passionate, committed and competent. They take out time to listen to your needs and proffer solutions.”- The Legal 500 (2023)
               </p>
             </div>
-            <a href="#Contact"><button class="button home-button">
+            <button class="button home-button">
               <span>
-                <span>Contact us</span>
+                <a href="#Contact"><span>Contact us</span></a>
                 <br />
               </span>
-            </button></a>
+            </button>
           </div>
         </section>
         <section class="home-note">
@@ -2086,6 +2086,7 @@
 document.addEventListener('DOMContentLoaded', function() {
   // get the element with the 'scroll-top' data-role
   const scrollTopBtn = document.querySelector('[data-role='scroll-top']');
+  
 
   // when the element is clicked
   scrollTopBtn.addEventListener('click', function() {
