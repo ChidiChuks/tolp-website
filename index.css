@@ -1954,6 +1954,84 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-sixunits);
 }
+
+
+/*  */
+.home-customer {
+  /* overflow: hidden; */
+}
+
+.home-quotes {
+  /* display: flex; */
+  /* white-space: nowrap; */
+  animation: slideAnimation 40s infinite linear;
+}
+
+.home-quote-container {
+  flex: 0 0 100%;
+  position: absolute; /* Position each quote container absolutely */
+  top: 0;
+  left: 0;
+}
+
+@keyframes slideAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(10%);
+  }
+  40% {
+    transform: translateX(-20%);
+  }
+  60% {
+    transform: translateX(30%);
+  }
+  80% {
+    transform: translateX(-40%);
+  }
+  100% {
+    transform: translateX(50%);
+  }
+}
+
+/* Media queries for responsive adjustments */
+
+/* For screens less than or equal to 768px (e.g., mobile devices) */
+@media screen and (max-width: 768px) {
+  .home-quotes {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .home-quote-container {
+    flex: 0 0 50%; /* Show two quotes per row in mobile view */
+  }
+}
+
+/* Additional media queries for larger screens if needed */
+
+/* For screens between 769px and 1024px (e.g., tablets) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Adjust styles for tablets */
+  .home-quote-container {
+    flex: 0 0 33.33%; /* Show three quotes per row on tablets */
+  }
+}
+
+/* For screens larger than 1024px (e.g., desktops) */
+@media screen and (min-width: 1025px) {
+  /* Adjust styles for desktops */
+  .home-quote-container {
+    flex: 0 0 25%; /* Show four quotes per row on desktops */
+  }
+}
+
+
+
+/*  */
+
+
 .home-header21 {
   width: 100%;
   display: flex;
