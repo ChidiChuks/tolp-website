@@ -86,7 +86,8 @@
   justify-content: space-between;
 }
 .home-branding {
-  width: 185px;
+  padding-top: 10px;
+  width: 250px;
   object-fit: cover;
 }
 .home-burger-menu {
@@ -2527,7 +2528,7 @@
   flex-direction: column;
 }
 .home-image10 {
-  width: 120px;
+  width: 200px;
   object-fit: cover;
 }
 .home-text77 {
