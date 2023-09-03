@@ -76,17 +76,27 @@
 .home-navbar {
   width: 100%;
   display: flex;
-  /* z-index: 1000; */
+  z-index: 1000;
   /* position: relative; */
-  max-width: var(--dl-size-size-maxwidth);
+  /* max-width: var(--dl-size-size-maxwidth); */
   align-items: center;
   justify-content: space-between;
-  z-index: 9999;
+  /* z-index: 9999; */
   position: fixed;
+  background-color: #0d1034;
+  padding-left: 7%;
+  padding-right: 5%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  margin-right: 7.5%;
+  margin-left: 1.5%;
+  align-content: center;
+  align-self: center;
+  /* opacity: 0.5; */
 }
 .home-branding {
   padding-top: 10px;
-  width: 250px;
+  width: 220px;
   object-fit: cover;
 }
 .home-burger-menu {
