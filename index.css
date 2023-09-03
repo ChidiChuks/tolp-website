@@ -44,8 +44,6 @@
 }
 
 
-
-
 .home-container {
   width: 100%;
   display: flex;
@@ -78,11 +76,13 @@
 .home-navbar {
   width: 100%;
   display: flex;
-  z-index: 1000;
-  position: relative;
+  /* z-index: 1000; */
+  /* position: relative; */
   max-width: var(--dl-size-size-maxwidth);
   align-items: center;
   justify-content: space-between;
+  z-index: 9999;
+  position: fixed;
 }
 .home-branding {
   padding-top: 10px;
