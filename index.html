@@ -1722,25 +1722,25 @@
         <div>
           <dangerous-html
             html="<script>
-document.addEventListener('DOMContentLoaded', function() {
-  // get the element with the 'scroll-top' data-role
-  const scrollTopBtn = document.querySelector('[data-role='scroll-top']');
-  
+              document.addEventListener('DOMContentLoaded', function() {
+                // get the element with the 'scroll-top' data-role
+                const scrollTopBtn = document.querySelector('[data-role='scroll-top']');
+                
 
-  // when the element is clicked
-  scrollTopBtn.addEventListener('click', function() {
-    // smoothly scroll to the top of the page
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-  });
-});
-</script>
-"
+                // when the element is clicked
+                scrollTopBtn.addEventListener('click', function() {
+                  // smoothly scroll to the top of the page
+                  window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                  });
+                });
+              });
+              </script>
+              "
           ></dangerous-html>
         </div>
-      </div>
+      <!-- </div> -->
     </div>
     <script
       data-section-id="navbar"
